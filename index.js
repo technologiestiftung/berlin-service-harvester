@@ -20,12 +20,25 @@ const list2array = (block, $, _linkList) => {
           label: link.text(),
         });
       } else {
-        array.push($(listItems[index]).html());
+        array.push(extractDescription(listItems[index], $));
       }
     }
     return array;
   }
 };
+
+const extractDescription = (block, $) => {
+  const strongItem = $(block).find(">strong");
+  const descriptionItem = $(block).find(">.description");
+  if (strongItem.length > 0 && descriptionItem.length > 0) {
+    return {
+      label: $(strongItem[0]).html(),
+      content: $(descriptionItem[0]).html()
+    };
+  } else {
+    return $(block).html();
+  }
+}
 
 fs.readFile("services.json", "utf8")
   .then((data) => {

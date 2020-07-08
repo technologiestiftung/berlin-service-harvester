@@ -4,14 +4,29 @@
 		"intro": "<p>Ihr Personalausweis ist bereits abgelaufen oder in Verlust geraten?<br>Einen vorl&#xE4;ufigen Personalausweis k&#xF6;nnen Sie beantragen, falls Sie f&#xFC;r einen konkreten Anlass <strong>sofort</strong> einen Personalausweis ben&#xF6;tigen.<br><br>Der vorl&#xE4;ufige Personalausweis ist in erster Linie ein Ersatzpapier zur vor&#xFC;bergehenden Erf&#xFC;llung der Ausweispflicht. Seine G&#xFC;ltigkeit betr&#xE4;gt bis zu 3 Monate.<br><br>Wenn Sie kurzfristig eine Auslandsreise antreten wollen, empfehlen wir Ihnen eher die Beantragung eines Reisepasses, da vorl&#xE4;ufige Personalausweise grunds&#xE4;tzlich nicht zur Einreise in andere L&#xE4;nder ausreichen (Ausnahme: einige EU-L&#xE4;nder).</p>",
 		"requirements": [
 			"<strong>Sie besitzen die deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
-			"<strong>Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich </strong><br><div class=\"description\">Der Ausweisbewerber (auch minderj&#xE4;hrige Personen) muss bei der Antragstellung anwesend sein.</div>",
-			"<strong>Minderj&#xE4;hrige Personen</strong><br><div class=\"description\">Vor Vollendung des 16. Lebensjahres ist der Antrag vom gesetzlichen Vertreter zu stellen. Das sind in der Regel beide Elternteile, wenn sie miteinander verheiratet sind.</div>",
-			"<strong>Sie sind in Berlin mit einer Wohnung angemeldet</strong><br><div class=\"description\">Wenn Sie in Berlin mit Nebenwohnung angemeldet sind, ist f&#xFC;r die Ausstellung des Ausweises die Zustimmung der Personalausweisbeh&#xF6;rde am Ort Ihrer Hauptwohnung notwendig; sie wird vom B&#xFC;rgeramt eingeholt.</div>"
+			{
+				"label": "Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich ",
+				"content": "Der Ausweisbewerber (auch minderj&#xE4;hrige Personen) muss bei der Antragstellung anwesend sein."
+			},
+			{
+				"label": "Minderj&#xE4;hrige Personen",
+				"content": "Vor Vollendung des 16. Lebensjahres ist der Antrag vom gesetzlichen Vertreter zu stellen. Das sind in der Regel beide Elternteile, wenn sie miteinander verheiratet sind."
+			},
+			{
+				"label": "Sie sind in Berlin mit einer Wohnung angemeldet",
+				"content": "Wenn Sie in Berlin mit Nebenwohnung angemeldet sind, ist f&#xFC;r die Ausstellung des Ausweises die Zustimmung der Personalausweisbeh&#xF6;rde am Ort Ihrer Hauptwohnung notwendig; sie wird vom B&#xFC;rgeramt eingeholt."
+			}
 		],
 		"documents": [
-			"<strong><a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile&amp;v=2\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a></strong><div class=\"description\">Beachten Sie die Fotomustertafel der Bundesdruckerei. Auch f&#xFC;r den vorl&#xE4;ufigen  Personalausweis sollen nur noch biometrietaugliche Fotos wie in Reisep&#xE4;ssen verwendet werden.<br><ul class=\"list\"><li>Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen Sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben.</li></ul></div>",
+			{
+				"label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile&amp;v=2\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a>",
+				"content": "Beachten Sie die Fotomustertafel der Bundesdruckerei. Auch f&#xFC;r den vorl&#xE4;ufigen  Personalausweis sollen nur noch biometrietaugliche Fotos wie in Reisep&#xE4;ssen verwendet werden.<br><ul class=\"list\"><li>Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen Sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben.</li></ul>"
+			},
 			"Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen Sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben.",
-			"<strong>Bisheriger Personalausweis, wenn vorhanden</strong><div class=\"description\">Ein vorhandener Personalausweis ist auch dann dem B&#xFC;rgeramt vorzulegen, wenn dieser bereits abgelaufen ist.</div>"
+			{
+				"label": "Bisheriger Personalausweis, wenn vorhanden",
+				"content": "Ein vorhandener Personalausweis ist auch dann dem B&#xFC;rgeramt vorzulegen, wenn dieser bereits abgelaufen ist."
+			}
 		],
 		"costs": [
 			"Hinweis: Bei Antragstellung am Ort der Nebenwohnung wird ein Zuschlag in H&#xF6;he von 13,00 Euro erhoben.",
@@ -325,15 +340,36 @@
 		"title": "Anmeldung einer Wohnung",
 		"intro": "<p></p><ul class=\"list\"><li>Sie sind innerhalb der Stadt in eine neue Wohnung umgezogen</li></ul><strong>oder</strong><br><ul class=\"list\"><li>Sie sind aus einer anderen Gemeinde in Deutschland neu nach Berlin gezogen</li></ul><strong>oder</strong><br><ul class=\"list\"><li>Sie sind aus dem Ausland nach Berlin gezogen.</li><br></ul>Innerhalb von <strong>14 Tagen nach Ihrem Einzug</strong> m&#xFC;ssen Sie sich nun bei der Meldebeh&#xF6;rde anmelden.<br><br>Eine Ausnahme von dieser Meldefrist besteht nur dann, wenn Sie sich besuchsweise vor&#xFC;bergehend bis zu zwei Monate in Berlin aufhalten <strong>oder</strong> wenn Sie mit einer Wohnung in Deutschland angemeldet sind und Ihr Aufenthalt &#xFC;bersteigt sechs Monate nicht.<br><br>Diese Anmeldung k&#xF6;nnen Sie bei einem der &#xFC;ber 40 Berliner B&#xFC;rger&#xE4;mter erledigen; Sie erhalten eine Meldebest&#xE4;tigung.<br><br>Hinweise:<br><br><ul class=\"list\"><li>Eine <strong>schriftliche Anmeldung</strong> ist <strong>nicht m&#xF6;glich</strong>.</li><br><li>Umzug eines minderj&#xE4;hrigen Kindes</li></ul>Wenn k&#xFC;nftig nicht mehr beide Sorgeberechtigten eine gemeinsame Wohnung mit dem Kind haben oder die alleinige Wohnung bzw. Hauptwohnung des Kindes von einem Sorgeberechtigten zum anderen wechselt, ist von den Sorgeberechtigten eine Einverst&#xE4;ndniserkl&#xE4;rung abzugeben. Ein Muster f&#xFC;r die Erkl&#xE4;rung finden Sie im Abschnitt &#x201E;Formulare&#x201C;.<p></p>",
 		"requirements": [
-			"<strong>Pers&#xF6;nliches Erscheinen (Vertretung m&#xF6;glich)</strong><br><div class=\"description\">Die Anmeldung k&#xF6;nnen Sie nur vor Ort abgeben. Sie k&#xF6;nnen sich auch durch eine andere Person vertreten lassen, wenn Sie dieser Person eine Vollmacht und das ausgef&#xFC;llte Anmelde-Formular mitgeben. Dieses Formular m&#xFC;ssen Sie selbst unterschreiben. Das Anmelde-Formular finden Sie im Abschnitt &#x201E;Formulare&#x201C;.</div>"
+			{
+				"label": "Pers&#xF6;nliches Erscheinen (Vertretung m&#xF6;glich)",
+				"content": "Die Anmeldung k&#xF6;nnen Sie nur vor Ort abgeben. Sie k&#xF6;nnen sich auch durch eine andere Person vertreten lassen, wenn Sie dieser Person eine Vollmacht und das ausgef&#xFC;llte Anmelde-Formular mitgeben. Dieses Formular m&#xFC;ssen Sie selbst unterschreiben. Das Anmelde-Formular finden Sie im Abschnitt &#x201E;Formulare&#x201C;."
+			}
 		],
 		"documents": [
-			"<strong>Identit&#xE4;tsnachweis</strong><div class=\"description\">Personalausweis, Reisepass, Kinderreisepass f&#xFC;r deutsche Staatsangeh&#xF6;rige oder Nationalpass oder Passersatzpapiere f&#xFC;r ausl&#xE4;ndische Staatsangeh&#xF6;rige.<br>Bitte bringen Sie alle genannten und Ihnen vorliegenden Dokumente f&#xFC;r alle umziehenden Personen mit.</div>",
-			"<strong>Beiblatt zur Anmeldung (bei mehreren Wohnungen)</strong><div class=\"description\">Nur wenn Sie Ihre bisherige Wohnung in Deutschland nicht aufgeben und die neue Wohnung zus&#xE4;tzlich anmelden wollen, muss f&#xFC;r Sie und Ihre ggf. mitziehenden Familienmitglieder eine Wohnung als Hauptwohnung bestimmt werden.</div>",
-			"<strong>Anmeldeformular</strong><div class=\"description\">Personen einer Familie, die aus der bisherigen Wohnung zusammen in die neue Wohnung ziehen, k&#xF6;nnen gemeinsam ein Anmeldeformular benutzen.<br>Bei mehr als 2 anzumeldenden Personen bitte weiteren Meldeschein benutzen.<br>Bitte beachten Sie im Bereich &quot;Weiterf&#xFC;hrende Informationen&quot; die &quot;Weiterf&#xFC;hrenden Hinweise zu Anmeldungen&quot; .</div>",
-			"<strong>Personenstandsurkunde</strong><div class=\"description\">F&#xFC;r Ihre erste Anmeldung in Berlin ist es ggf. zus&#xE4;tzlich erforderlich, Personenstandsurkunden (wie z.B.: Heirats-, Geburtsurkunde) vorzulegen.<br>Bereits vorhandene Urkunden sollten daher vorsorglich mitgebracht werden.</div>",
-			"<strong>Einzugsbest&#xE4;tigung des Wohnungsgebers (Vermieter)</strong><div class=\"description\">(Kann schriftlich nachgereicht werden.)<br>Seit dem 1. November 2015 ist der Wohnungsgeber verpflichtet, dem Meldepflichtigen den Einzug innerhalb von zwei Wochen nach dem Einzug schriftlich mit Unterschrift zu best&#xE4;tigen. Die Best&#xE4;tigung muss folgende Daten enthalten: Name und Anschrift des Wohnungsgebers und wenn dieser nicht Eigent&#xFC;mer ist, auch den Namen des Eigent&#xFC;mers, Einzugsdatum, Anschrift der Wohnung und Namen der meldepflichtigen Personen. Die Vorlage eines Mietvertrages ersetzt nicht die Einzugsbest&#xE4;tigung.<br>Ein Muster f&#xFC;r die Einzugsbest&#xE4;tigung des Wohnungsgebers steht Ihnen unter &quot;Formulare&quot; zur Verf&#xFC;gung.</div>",
-			"<strong>ggf. die Einverst&#xE4;ndniserkl&#xE4;rung des abwesenden Sorgeberechtigten und dessen Pass oder Personalausweis</strong><div class=\"description\">Ein Muster f&#xFC;r die Einverst&#xE4;ndniserkl&#xE4;rung der Sorgeberechtigten steht Ihnen unter &quot;Formulare&quot; zur Verf&#xFC;gung.</div>"
+			{
+				"label": "Identit&#xE4;tsnachweis",
+				"content": "Personalausweis, Reisepass, Kinderreisepass f&#xFC;r deutsche Staatsangeh&#xF6;rige oder Nationalpass oder Passersatzpapiere f&#xFC;r ausl&#xE4;ndische Staatsangeh&#xF6;rige.<br>Bitte bringen Sie alle genannten und Ihnen vorliegenden Dokumente f&#xFC;r alle umziehenden Personen mit."
+			},
+			{
+				"label": "Beiblatt zur Anmeldung (bei mehreren Wohnungen)",
+				"content": "Nur wenn Sie Ihre bisherige Wohnung in Deutschland nicht aufgeben und die neue Wohnung zus&#xE4;tzlich anmelden wollen, muss f&#xFC;r Sie und Ihre ggf. mitziehenden Familienmitglieder eine Wohnung als Hauptwohnung bestimmt werden."
+			},
+			{
+				"label": "Anmeldeformular",
+				"content": "Personen einer Familie, die aus der bisherigen Wohnung zusammen in die neue Wohnung ziehen, k&#xF6;nnen gemeinsam ein Anmeldeformular benutzen.<br>Bei mehr als 2 anzumeldenden Personen bitte weiteren Meldeschein benutzen.<br>Bitte beachten Sie im Bereich &quot;Weiterf&#xFC;hrende Informationen&quot; die &quot;Weiterf&#xFC;hrenden Hinweise zu Anmeldungen&quot; ."
+			},
+			{
+				"label": "Personenstandsurkunde",
+				"content": "F&#xFC;r Ihre erste Anmeldung in Berlin ist es ggf. zus&#xE4;tzlich erforderlich, Personenstandsurkunden (wie z.B.: Heirats-, Geburtsurkunde) vorzulegen.<br>Bereits vorhandene Urkunden sollten daher vorsorglich mitgebracht werden."
+			},
+			{
+				"label": "Einzugsbest&#xE4;tigung des Wohnungsgebers (Vermieter)",
+				"content": "(Kann schriftlich nachgereicht werden.)<br>Seit dem 1. November 2015 ist der Wohnungsgeber verpflichtet, dem Meldepflichtigen den Einzug innerhalb von zwei Wochen nach dem Einzug schriftlich mit Unterschrift zu best&#xE4;tigen. Die Best&#xE4;tigung muss folgende Daten enthalten: Name und Anschrift des Wohnungsgebers und wenn dieser nicht Eigent&#xFC;mer ist, auch den Namen des Eigent&#xFC;mers, Einzugsdatum, Anschrift der Wohnung und Namen der meldepflichtigen Personen. Die Vorlage eines Mietvertrages ersetzt nicht die Einzugsbest&#xE4;tigung.<br>Ein Muster f&#xFC;r die Einzugsbest&#xE4;tigung des Wohnungsgebers steht Ihnen unter &quot;Formulare&quot; zur Verf&#xFC;gung."
+			},
+			{
+				"label": "ggf. die Einverst&#xE4;ndniserkl&#xE4;rung des abwesenden Sorgeberechtigten und dessen Pass oder Personalausweis",
+				"content": "Ein Muster f&#xFC;r die Einverst&#xE4;ndniserkl&#xE4;rung der Sorgeberechtigten steht Ihnen unter &quot;Formulare&quot; zur Verf&#xFC;gung."
+			}
 		],
 		"forms": [
 			{
@@ -661,24 +697,48 @@
 		"intro": "<p>Mit einem Personalausweis k&#xF6;nnen Sie sich ausweisen.<br><br><strong>Wann brauchen Sie einen Personalausweis?</strong><br>Einen Personalausweis brauchen alle Deutschen ab 16 Jahren, die keinen g&#xFC;ltigen Reisepass haben.<br><br>In folgenden F&#xE4;llen sollten Sie einen Personalausweis beantragen:<br></p><ul class=\"list\"><li>Sie werden 16 Jahre alt (siehe <strong>Hinweis</strong> am Ende dieser Beschreibung);</li><li>Ihr alter Personalausweis ist nicht mehr g&#xFC;ltig;</li><li>Sie haben Ihren alten Personalausweis nicht mehr, zum Beispiel weil er gestohlen wurde oder weil Sie ihn verloren haben;</li><li>Sie haben einen neuen Namen bekommen, zum Beispiel nach einer Heirat.</li><br></ul><strong>Gibt es Ausnahmen?</strong><br>In folgenden F&#xE4;llen brauchen Sie keinen Personalausweis:<br><br><ul class=\"list\"><li>Wenn Sie von der Ausweispflicht befreit wurden; mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/327044/\" target=\"_blank\">Befreiung von der Ausweispflicht</a></li><li>Wenn Sie keinen Wohnsitz in Deutschland haben. In diesem Fall k&#xF6;nnen Sie trotzdem einen Personalausweis beantragen, wenn Sie m&#xF6;chten. Bitte wenden Sie sich dazu an Ihre deutsche Auslandsvertretung, zum Beispiel an eine deutsche Botschaft. Wahlweise k&#xF6;nnen Sie den Personalausweis auch in Berlin beantragen; mehr zum Thema:  <a href=\"http://service.berlin.de/dienstleistung/326550/\" target=\"_blank\">Personalausweis f&#xFC;r in Berlin nicht gemeldete Personen, Touristen und Deutsche mit Wohnsitz im Ausland</a></li><br></ul><strong>Hinweis</strong>:<br>Mit Vollendung des 16. Lebensjahres beginnt die sogenannte Ausweispflicht.<br>Auf Antrag seiner gesetzlichen Vertreter kann aber auch f&#xFC;r Kinder unter 16 Jahren ein Personalausweis ausgestellt werden. Hierzu ber&#xE4;t Sie gern Ihr B&#xFC;rgeramt.<p></p>",
 		"requirements": [
 			"<strong>Deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
-			"<strong>Pers&#xF6;nliches Erscheinen</strong><br><div class=\"description\">Den Antrag k&#xF6;nnen Sie nur vor Ort stellen.</div>",
-			"<strong>F&#xFC;r Kinder unter 16 Jahren: Antrag der gesetzlichen Vertreter</strong><br><div class=\"description\">F&#xFC;r Kinder unter 16 Jahren k&#xF6;nnen nur die gesetzlichen Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind im Normalfall die Eltern. Bei der Antragstellung muss das Kind ebenfalls anwesend sein.</div>",
-			"<strong>Wohnsitz in Berlin (Ausnahmen m&#xF6;glich)</strong><br><div class=\"description\">Sie wohnen in Berlin und sind hier gemeldet.<br>Ein Zweit-Wohnsitz in Berlin reicht aus. In diesem Fall kostet der Personalausweis jedoch mehr, weil die Gemeinde Ihres Haupt-Wohnsitzes zustimmen muss; siehe Abschnitt &#x201E;Geb&#xFC;hren&#x201C;.<br>Wenn Sie in Deutschland keinen festen Wohnsitz haben, k&#xF6;nnen den Personalausweis dennoch bekommen; mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/326550/\" target=\"_blank\">Personalausweis f&#xFC;r in Berlin nicht gemeldete Personen, Touristen und Deutsche mit Wohnsitz im Ausland</a></div>"
+			{
+				"label": "Pers&#xF6;nliches Erscheinen",
+				"content": "Den Antrag k&#xF6;nnen Sie nur vor Ort stellen."
+			},
+			{
+				"label": "F&#xFC;r Kinder unter 16 Jahren: Antrag der gesetzlichen Vertreter",
+				"content": "F&#xFC;r Kinder unter 16 Jahren k&#xF6;nnen nur die gesetzlichen Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind im Normalfall die Eltern. Bei der Antragstellung muss das Kind ebenfalls anwesend sein."
+			},
+			{
+				"label": "Wohnsitz in Berlin (Ausnahmen m&#xF6;glich)",
+				"content": "Sie wohnen in Berlin und sind hier gemeldet.<br>Ein Zweit-Wohnsitz in Berlin reicht aus. In diesem Fall kostet der Personalausweis jedoch mehr, weil die Gemeinde Ihres Haupt-Wohnsitzes zustimmen muss; siehe Abschnitt &#x201E;Geb&#xFC;hren&#x201C;.<br>Wenn Sie in Deutschland keinen festen Wohnsitz haben, k&#xF6;nnen den Personalausweis dennoch bekommen; mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/326550/\" target=\"_blank\">Personalausweis f&#xFC;r in Berlin nicht gemeldete Personen, Touristen und Deutsche mit Wohnsitz im Ausland</a>"
+			}
 		],
 		"documents": [
-			"<strong>Aktuelles, biometrisches Passfoto </strong><div class=\"description\">Das Foto muss aktuell sein. Es muss die Anforderungen an Fotos f&#xFC;r elektronische Reisep&#xE4;sse erf&#xFC;llen. Die einzelnen Anforderungen enth&#xE4;lt die <a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">Foto-Mustertafel der Bundesdruckerei</a>.</div>",
-			"<strong>Falls vorhanden: Ihr alter Personalausweis</strong><div class=\"description\">Falls Sie einen alten Personalausweis haben, bringen Sie diesen bitte mit, auch wenn er schon abgelaufen ist.</div>",
-			"<strong>Unter Umst&#xE4;nden: Ihr Reisepass, falls vorhanden</strong><div class=\"description\">Bitte bringen Sie Ihren Reisepass mit, falls<br><ul class=\"list\"><li>Sie noch nie einen Personalausweis hatten oder</li><li>Sie Ihren alten Personalausweis nicht mehr haben.</li></ul></div>",
+			{
+				"label": "Aktuelles, biometrisches Passfoto ",
+				"content": "Das Foto muss aktuell sein. Es muss die Anforderungen an Fotos f&#xFC;r elektronische Reisep&#xE4;sse erf&#xFC;llen. Die einzelnen Anforderungen enth&#xE4;lt die <a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">Foto-Mustertafel der Bundesdruckerei</a>."
+			},
+			{
+				"label": "Falls vorhanden: Ihr alter Personalausweis",
+				"content": "Falls Sie einen alten Personalausweis haben, bringen Sie diesen bitte mit, auch wenn er schon abgelaufen ist."
+			},
+			{
+				"label": "Unter Umst&#xE4;nden: Ihr Reisepass, falls vorhanden",
+				"content": "Bitte bringen Sie Ihren Reisepass mit, falls<br><ul class=\"list\"><li>Sie noch nie einen Personalausweis hatten oder</li><li>Sie Ihren alten Personalausweis nicht mehr haben.</li></ul>"
+			},
 			"Sie noch nie einen Personalausweis hatten oder",
 			"Sie Ihren alten Personalausweis nicht mehr haben.",
-			"<strong>Unter Umst&#xE4;nden: Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde</strong><div class=\"description\">Bringen Sie bitte eine Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde mit, falls<br><ul class=\"list\"><li>Sie noch nie einen Personalausweis oder einen Reisepass hatten,</li><li>Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein.</li></ul>Mehr zum Thema:<br><ul class=\"list\"><li><a href=\"http://service.berlin.de/dienstleistung/318960/\" target=\"_blank\">Urkunden &#x2013; Ausstellung &#x2013; Geburtsurkunde</a></li><li><a href=\"http://service.berlin.de/dienstleistung/318969/\" target=\"_blank\">Urkunden &#x2013; Ausstellung &#x2013; Eheurkunde</a></li><li><a href=\"http://service.berlin.de/dienstleistung/324955/\" target=\"_blank\">Lebenspartnerschaft - Ausstellung von Personenstandsurkunden (f&#xFC;r bereits beurkundete Personenstandsf&#xE4;lle) - Lebenspartnerschaftsregister</a></li><li><a href=\"https://www.xurkundenportal.de/xsta-urkunden/programm/startseite.seam?cid=287007\" target=\"_blank\">Urkunden bei Standes&#xE4;mtern anfordern</a></li></ul></div>",
+			{
+				"label": "Unter Umst&#xE4;nden: Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde",
+				"content": "Bringen Sie bitte eine Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde mit, falls<br><ul class=\"list\"><li>Sie noch nie einen Personalausweis oder einen Reisepass hatten,</li><li>Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein.</li></ul>Mehr zum Thema:<br><ul class=\"list\"><li><a href=\"http://service.berlin.de/dienstleistung/318960/\" target=\"_blank\">Urkunden &#x2013; Ausstellung &#x2013; Geburtsurkunde</a></li><li><a href=\"http://service.berlin.de/dienstleistung/318969/\" target=\"_blank\">Urkunden &#x2013; Ausstellung &#x2013; Eheurkunde</a></li><li><a href=\"http://service.berlin.de/dienstleistung/324955/\" target=\"_blank\">Lebenspartnerschaft - Ausstellung von Personenstandsurkunden (f&#xFC;r bereits beurkundete Personenstandsf&#xE4;lle) - Lebenspartnerschaftsregister</a></li><li><a href=\"https://www.xurkundenportal.de/xsta-urkunden/programm/startseite.seam?cid=287007\" target=\"_blank\">Urkunden bei Standes&#xE4;mtern anfordern</a></li></ul>"
+			},
 			"Sie noch nie einen Personalausweis oder einen Reisepass hatten,",
 			"Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein.",
 			"<a href=\"http://service.berlin.de/dienstleistung/318960/\" target=\"_blank\">Urkunden &#x2013; Ausstellung &#x2013; Geburtsurkunde</a>",
 			"<a href=\"http://service.berlin.de/dienstleistung/318969/\" target=\"_blank\">Urkunden &#x2013; Ausstellung &#x2013; Eheurkunde</a>",
 			"<a href=\"http://service.berlin.de/dienstleistung/324955/\" target=\"_blank\">Lebenspartnerschaft - Ausstellung von Personenstandsurkunden (f&#xFC;r bereits beurkundete Personenstandsf&#xE4;lle) - Lebenspartnerschaftsregister</a>",
 			"<a href=\"https://www.xurkundenportal.de/xsta-urkunden/programm/startseite.seam?cid=287007\" target=\"_blank\">Urkunden bei Standes&#xE4;mtern anfordern</a>",
-			"<strong>Bei Antr&#xE4;gen eines gesetzlichen Vertreters: schriftliche Zustimmung des anderen gesetzlichen Vertreters</strong><div class=\"description\">Dies ist nicht erforderlich, falls Sie alleine sorgeberechtigt sind oder falls beide Elternteile anwesend sind.<br>Bitte nutzen Sie f&#xFC;r die Zustimmung das Formular &#x201E;Zustimmung zum Antrag auf einen Personalausweis f&#xFC;r mein Kind&#x201C;, siehe Abschnitt &#x201E;Formulare&#x201C;.</div>"
+			{
+				"label": "Bei Antr&#xE4;gen eines gesetzlichen Vertreters: schriftliche Zustimmung des anderen gesetzlichen Vertreters",
+				"content": "Dies ist nicht erforderlich, falls Sie alleine sorgeberechtigt sind oder falls beide Elternteile anwesend sind.<br>Bitte nutzen Sie f&#xFC;r die Zustimmung das Formular &#x201E;Zustimmung zum Antrag auf einen Personalausweis f&#xFC;r mein Kind&#x201C;, siehe Abschnitt &#x201E;Formulare&#x201C;."
+			}
 		],
 		"forms": [
 			{
@@ -1035,19 +1095,40 @@
 		"title": "Führungszeugnis",
 		"intro": "<p>Mit einem F&#xFC;hrungszeugnis k&#xF6;nnen Sie nachweisen, dass Sie nicht vorbestraft sind.<br><br>F&#xFC;hrungszeugnisse unterscheidet man danach, ob sie bestimmt sind<br></p><ul class=\"list\"><li>f&#xFC;r private Zwecke (zum Beispiel f&#xFC;r Ihren Arbeitgeber) oder</li><li>f&#xFC;r Beh&#xF6;rden (sogenanntes &#x201E;beh&#xF6;rdliches F&#xFC;hrungszeugnis&#x201C;, auch &#x201E;F&#xFC;hrungszeugnis zur Vorlage bei einer Beh&#xF6;rde&#x201C;).</li><br></ul>Au&#xDF;erdem gibt es unterschiedliche Arten von F&#xFC;hrungszeugnissen<br><ul class=\"list\"><li>einfache F&#xFC;hrungszeugnisse und</li><li>erweiterte F&#xFC;hrungszeugnisse</li></ul>Welche Art von F&#xFC;hrungszeugnis Sie ben&#xF6;tigten, teilt Ihnen derjenige mit, der das F&#xFC;hrungszeugnis von Ihnen verlangt. In der Regel ben&#xF6;tigen Sie ein einfaches F&#xFC;hrungszeugnis.<br><br>Angeh&#xF6;rige anderer EU-Staaten erhalten ein europ&#xE4;isches F&#xFC;hrungszeugnis. Europ&#xE4;ische F&#xFC;hrungszeugnisse enthalten auch Strafregister-Eintr&#xE4;ge aus Ihrem Heimatland.<br><br>Das F&#xFC;hrungszeugnis wird erstellt vom Bundesamt f&#xFC;r Justiz in Bonn (Bundeszentralregister).<br><br>Wird das F&#xFC;hrungszeugnis f&#xFC;r private Zwecke ben&#xF6;tigt, erhalten Sie es postalisch an Ihre Anschrift &#xFC;bersandt; eines f&#xFC;r beh&#xF6;rdliche Zwecke geht direkt an die Beh&#xF6;rde.<br><br>Sie k&#xF6;nnen bestimmte F&#xFC;hrungszeugnisse auch &#xFC;ber das Internet beantragen - Informationen hierzu und Zugang zum Antragsverfahren erhalten Sie in der nachfolgenden Online-Abwicklung.<p></p>",
 		"requirements": [
-			"<strong>Sie wohnen in Berlin und sind hier gemeldet</strong><br><div class=\"description\">Falls Sie keine feste Wohnung haben, halten Sie sich stattdessen gew&#xF6;hnlich auf in Berlin.</div>",
-			"<strong>Mindestalter: 14 Jahre</strong><br><div class=\"description\">F&#xFC;hrungszeugnisse gibt es nur f&#xFC;r Personen, die mindestens 14 Jahre alt sind.</div>",
-			"<strong>Pers&#xF6;nliche Antragstellung</strong><br><div class=\"description\">Grunds&#xE4;tzlich gilt: pers&#xF6;nliche Vorsprache.<br><ul class=\"list\"><li>Sofern Sie nicht pers&#xF6;nlich zur Antragstellung erscheinen k&#xF6;nnen, ist vorrangig <strong>der schriftliche Antragsweg</strong> per Post mit eigenh&#xE4;ndiger Unterschrift zu nutzen. Bitte &#xFC;berweisen Sie vorab die Geb&#xFC;hr. Den Betrag finden Sie unter &quot;Geb&#xFC;hren&quot; und die Bankverbindung unter &quot;Weiterf&#xFC;hrende Informationen&quot;.</li><li>F&#xFC;r Minderj&#xE4;hrige k&#xF6;nnen <strong>auch</strong> deren gesetzliche Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind normalerweise die Eltern.</li></ul></div>",
+			{
+				"label": "Sie wohnen in Berlin und sind hier gemeldet",
+				"content": "Falls Sie keine feste Wohnung haben, halten Sie sich stattdessen gew&#xF6;hnlich auf in Berlin."
+			},
+			{
+				"label": "Mindestalter: 14 Jahre",
+				"content": "F&#xFC;hrungszeugnisse gibt es nur f&#xFC;r Personen, die mindestens 14 Jahre alt sind."
+			},
+			{
+				"label": "Pers&#xF6;nliche Antragstellung",
+				"content": "Grunds&#xE4;tzlich gilt: pers&#xF6;nliche Vorsprache.<br><ul class=\"list\"><li>Sofern Sie nicht pers&#xF6;nlich zur Antragstellung erscheinen k&#xF6;nnen, ist vorrangig <strong>der schriftliche Antragsweg</strong> per Post mit eigenh&#xE4;ndiger Unterschrift zu nutzen. Bitte &#xFC;berweisen Sie vorab die Geb&#xFC;hr. Den Betrag finden Sie unter &quot;Geb&#xFC;hren&quot; und die Bankverbindung unter &quot;Weiterf&#xFC;hrende Informationen&quot;.</li><li>F&#xFC;r Minderj&#xE4;hrige k&#xF6;nnen <strong>auch</strong> deren gesetzliche Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind normalerweise die Eltern.</li></ul>"
+			},
 			"Sofern Sie nicht pers&#xF6;nlich zur Antragstellung erscheinen k&#xF6;nnen, ist vorrangig <strong>der schriftliche Antragsweg</strong> per Post mit eigenh&#xE4;ndiger Unterschrift zu nutzen. Bitte &#xFC;berweisen Sie vorab die Geb&#xFC;hr. Den Betrag finden Sie unter &quot;Geb&#xFC;hren&quot; und die Bankverbindung unter &quot;Weiterf&#xFC;hrende Informationen&quot;.",
 			"F&#xFC;r Minderj&#xE4;hrige k&#xF6;nnen <strong>auch</strong> deren gesetzliche Vertreter den Antrag stellen. Die gesetzlichen Vertreter sind normalerweise die Eltern.",
-			"<strong><a href=\"http://www.berlin.de/labo/_assets/buergerdienste/bankverbindungen-der-buergeraemter.pdf\" target=\"_blank\">ggf. &#xDC;berweisung der Geb&#xFC;hr</a></strong><br><div class=\"description\">Wenn Sie Ihren Antrag schriftlich stellen, &#xFC;berweisen Sie bitte vorab die Geb&#xFC;hr auf das Konto des Bezirks.<br><ul class=\"list\"><li><strong>Bitte geben Sie im Verwendungszweck &quot;F&#xFC;hrungszeugnis f&#xFC;r Name, Vorname&quot; an.</strong></li></ul></div>",
+			{
+				"label": "<a href=\"http://www.berlin.de/labo/_assets/buergerdienste/bankverbindungen-der-buergeraemter.pdf\" target=\"_blank\">ggf. &#xDC;berweisung der Geb&#xFC;hr</a>",
+				"content": "Wenn Sie Ihren Antrag schriftlich stellen, &#xFC;berweisen Sie bitte vorab die Geb&#xFC;hr auf das Konto des Bezirks.<br><ul class=\"list\"><li><strong>Bitte geben Sie im Verwendungszweck &quot;F&#xFC;hrungszeugnis f&#xFC;r Name, Vorname&quot; an.</strong></li></ul>"
+			},
 			"<strong>Bitte geben Sie im Verwendungszweck &quot;F&#xFC;hrungszeugnis f&#xFC;r Name, Vorname&quot; an.</strong>",
-			"<strong>F&#xFC;r ein europ&#xE4;isches F&#xFC;hrungszeugnis:</strong><br><div class=\"description\">Sie haben die Staatsangeh&#xF6;rigkeit eines anderen Mitgliedsstaates der Europ&#xE4;ischen Union.</div>"
+			{
+				"label": "F&#xFC;r ein europ&#xE4;isches F&#xFC;hrungszeugnis:",
+				"content": "Sie haben die Staatsangeh&#xF6;rigkeit eines anderen Mitgliedsstaates der Europ&#xE4;ischen Union."
+			}
 		],
 		"documents": [
 			"<strong>Personalausweis oder Reisepass</strong>",
-			"<strong>F&#xFC;r ein beh&#xF6;rdliches F&#xFC;hrungszeugnis</strong><div class=\"description\">&#x2022;\tName und Anschrift der Beh&#xF6;rde, f&#xFC;r die das F&#xFC;hrungszeugnis bestimmt ist<br>&#x2022;\tAktenzeichen und Verwendungszweck</div>",
-			"<strong>F&#xFC;r ein erweitertes F&#xFC;hrungszeugnis: schriftliche Aufforderung einer berechtigten Stelle</strong><div class=\"description\">Die Stelle, die das F&#xFC;hrungszeugnis von Ihnen verlangt, hat ausdr&#xFC;cklich ein erweitertes F&#xFC;hrungszeugnis gefordert. Dies ist nur in bestimmten F&#xE4;llen m&#xF6;glich, zum Beispiel wenn Sie mit Kindern oder Jugendlichen arbeiten sollen.</div>"
+			{
+				"label": "F&#xFC;r ein beh&#xF6;rdliches F&#xFC;hrungszeugnis",
+				"content": "&#x2022;\tName und Anschrift der Beh&#xF6;rde, f&#xFC;r die das F&#xFC;hrungszeugnis bestimmt ist<br>&#x2022;\tAktenzeichen und Verwendungszweck"
+			},
+			{
+				"label": "F&#xFC;r ein erweitertes F&#xFC;hrungszeugnis: schriftliche Aufforderung einer berechtigten Stelle",
+				"content": "Die Stelle, die das F&#xFC;hrungszeugnis von Ihnen verlangt, hat ausdr&#xFC;cklich ein erweitertes F&#xFC;hrungszeugnis gefordert. Dies ist nur in bestimmten F&#xE4;llen m&#xF6;glich, zum Beispiel wenn Sie mit Kindern oder Jugendlichen arbeiten sollen."
+			}
 		],
 		"costs": [
 			"13,00 Euro",
@@ -1391,17 +1472,38 @@
 		"intro": "<p>Mit einem Reisepass k&#xF6;nnen Sie sich ausweisen, wenn Sie in andere L&#xE4;nder reisen.<br><br>Manche L&#xE4;nder haben zus&#xE4;tzliche Einreise-Bestimmungen. Bitte informieren Sie sich rechtzeitig, welche Dokumente Sie f&#xFC;r Ihre Reise brauchen. Informationen dazu erhalten Sie zum Beispiel bei Ihrem Reise-Veranstalter oder beim <a href=\"https://www.auswaertiges-amt.de/de/ReiseUndSicherheit/\" target=\"_blank\">Reise-Ratgeber des Ausw&#xE4;rtigen Amtes</a>.<br><br>Falls Sie den Reisepass dringend ben&#xF6;tigen, k&#xF6;nnen Sie eine Express-Herstellung beantragen. Dann ist Ihr neuer Reisepass schneller fertig. Daf&#xFC;r m&#xFC;ssen Sie mehr bezahlen. Wenn selbst die Express-Herstellung nicht mehr rechtzeitig m&#xF6;glich ist, k&#xF6;nnen Sie einen <a href=\"http://service.berlin.de/dienstleistung/121153//\" target=\"_blank\">vorl&#xE4;ufigen Reisepass beantragen</a>.<br><br>Der normale Reisepass hat 32 Seiten. Wenn Sie viel reisen, k&#xF6;nnen Sie einen Reisepass mit 48 Seiten beantragen.<br><br>G&#xFC;ltigkeit:<br></p><ul class=\"list\"><li>bis 24 Jahre sechs Jahre</li><li>ab 24 Jahre zehn Jahre</li></ul><p></p>",
 		"requirements": [
 			"<strong>Deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
-			"<strong>Pers&#xF6;nliches Erscheinen</strong><br><div class=\"description\">Den Antrag k&#xF6;nnen Sie nur vor Ort stellen. Das k&#xF6;nnen nur Sie pers&#xF6;nlich machen.</div>",
-			"<strong>Wohnsitz in Berlin (Ausnahmen m&#xF6;glich)</strong><br><div class=\"description\">Sie wohnen in Berlin und sind hier gemeldet.<br>Ein Zweit-Wohnsitz in Berlin reicht aus. In diesem Fall kostet der Reisepass jedoch mehr, weil die Gemeinde Ihres Haupt-Wohnsitzes zustimmen muss; siehe Abschnitt &#x201E;Geb&#xFC;hren&#x201C;.<br>Wenn Sie in Deutschland keinen festen Wohnsitz haben, k&#xF6;nnen Sie den Reisepass dennoch bekommen; mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/306704/\" target_=\"blank\">Reisepass f&#xFC;r in Berlin nicht gemeldete Personen, Touristen und Deutsche mit Wohnsitz im Ausland</a></div>",
-			"<strong><a href=\"https://service.berlin.de/dienstleistung/121469/\" target=\"_blank\">Reisepass f&#xFC;r Kinder und Jugendliche</a></strong><br><div class=\"description\">F&#xFC;r Kinder und Jugendliche unter 18 Jahren beachten Sie bitte die Hinweise zu der Dienstleistung &quot;Kinderreisepass beantragen&quot;.</div>"
+			{
+				"label": "Pers&#xF6;nliches Erscheinen",
+				"content": "Den Antrag k&#xF6;nnen Sie nur vor Ort stellen. Das k&#xF6;nnen nur Sie pers&#xF6;nlich machen."
+			},
+			{
+				"label": "Wohnsitz in Berlin (Ausnahmen m&#xF6;glich)",
+				"content": "Sie wohnen in Berlin und sind hier gemeldet.<br>Ein Zweit-Wohnsitz in Berlin reicht aus. In diesem Fall kostet der Reisepass jedoch mehr, weil die Gemeinde Ihres Haupt-Wohnsitzes zustimmen muss; siehe Abschnitt &#x201E;Geb&#xFC;hren&#x201C;.<br>Wenn Sie in Deutschland keinen festen Wohnsitz haben, k&#xF6;nnen Sie den Reisepass dennoch bekommen; mehr zum Thema: <a href=\"http://service.berlin.de/dienstleistung/306704/\" target_=\"blank\">Reisepass f&#xFC;r in Berlin nicht gemeldete Personen, Touristen und Deutsche mit Wohnsitz im Ausland</a>"
+			},
+			{
+				"label": "<a href=\"https://service.berlin.de/dienstleistung/121469/\" target=\"_blank\">Reisepass f&#xFC;r Kinder und Jugendliche</a>",
+				"content": "F&#xFC;r Kinder und Jugendliche unter 18 Jahren beachten Sie bitte die Hinweise zu der Dienstleistung &quot;Kinderreisepass beantragen&quot;."
+			}
 		],
 		"documents": [
-			"<strong>Aktuelles, biometrisches Passfoto</strong><div class=\"description\">Das Foto muss aktuell sein. Es muss die Anforderungen an Fotos f&#xFC;r elektronische Reisep&#xE4;sse erf&#xFC;llen. Die einzelnen Anforderungen enth&#xE4;lt die <a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target_=\"blank\">Foto-Mustertafel der Bundesdruckerei</a>.</div>",
-			"<strong>Falls vorhanden und noch nicht entwertet: Ihr alter Reisepass</strong><div class=\"description\">Falls Sie noch einen alten Reisepass haben, bringen Sie diesen bitte mit, auch wenn er bereits abgelaufen ist. Falls Ihr alter Reisepass schon entwertet wurde, brauchen Sie ihn nicht mitzubringen.</div>",
-			"<strong>Falls vorhanden: g&#xFC;ltiges Ausweis-Dokument</strong><div class=\"description\">zum Beispiel<br><ul class=\"list\"><li>Ihr Personalausweis, falls Sie einen haben, oder</li><li>Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.</li></ul></div>",
+			{
+				"label": "Aktuelles, biometrisches Passfoto",
+				"content": "Das Foto muss aktuell sein. Es muss die Anforderungen an Fotos f&#xFC;r elektronische Reisep&#xE4;sse erf&#xFC;llen. Die einzelnen Anforderungen enth&#xE4;lt die <a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target_=\"blank\">Foto-Mustertafel der Bundesdruckerei</a>."
+			},
+			{
+				"label": "Falls vorhanden und noch nicht entwertet: Ihr alter Reisepass",
+				"content": "Falls Sie noch einen alten Reisepass haben, bringen Sie diesen bitte mit, auch wenn er bereits abgelaufen ist. Falls Ihr alter Reisepass schon entwertet wurde, brauchen Sie ihn nicht mitzubringen."
+			},
+			{
+				"label": "Falls vorhanden: g&#xFC;ltiges Ausweis-Dokument",
+				"content": "zum Beispiel<br><ul class=\"list\"><li>Ihr Personalausweis, falls Sie einen haben, oder</li><li>Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.</li></ul>"
+			},
 			"Ihr Personalausweis, falls Sie einen haben, oder",
 			"Ihr alter Reisepass, falls dieser noch g&#xFC;ltig ist.",
-			"<strong>Unter Umst&#xE4;nden: Personenstandsurkunde</strong><div class=\"description\">Bringen Sie bitte eine Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde mit,<br><ul class=\"list\"><li>falls Sie noch nie einen Personalausweis oder einen Reisepass hatten,</li><li>falls Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein (mehr unter Weiterf&#xFC;hrende Informationen).</li></ul></div>",
+			{
+				"label": "Unter Umst&#xE4;nden: Personenstandsurkunde",
+				"content": "Bringen Sie bitte eine Geburtsurkunde oder Eheurkunde oder Lebenspartnerschaftsurkunde mit,<br><ul class=\"list\"><li>falls Sie noch nie einen Personalausweis oder einen Reisepass hatten,</li><li>falls Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein (mehr unter Weiterf&#xFC;hrende Informationen).</li></ul>"
+			},
 			"falls Sie noch nie einen Personalausweis oder einen Reisepass hatten,",
 			"falls Ihre Angaben zu Ihrer Person abweichen von den Daten, die im Melderegister gespeichert sind. Das kann zum Beispiel nach einer Heirat oder nach einer Namens&#xE4;nderung sein (mehr unter Weiterf&#xFC;hrende Informationen)."
 		],
@@ -1772,19 +1874,46 @@
 		"requirements": [
 			"<strong>Sie besitzen die deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
 			"<strong>Auch Expresspassausstellung ist bis zum Reiseantritt nicht mehr m&#xF6;glich.</strong><br>",
-			"<strong>Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich </strong><br><div class=\"description\">Der Passbewerber muss bei der Antragstellung anwesend sein.</div>",
-			"<strong>Sie sind in Berlin mit einer Wohnung angemeldet</strong><br><div class=\"description\">Wenn Sie in Berlin mit Nebenwohnung angemeldet sind, ist f&#xFC;r die Ausstellung des vorl&#xE4;ufigen Reisepasses die Zustimmung der Passbeh&#xF6;rde am Ort Ihrer Hauptwohnung notwendig; sie wird vom B&#xFC;rgeramt eingeholt.</div>",
-			"<strong><a href=\"https://service.berlin.de/dienstleistung/121469/\" target=\"_blank\">Reisepass f&#xFC;r Minderj&#xE4;hrige</a></strong><br><div class=\"description\">F&#xFC;r Kinder und Jugendliche unter 18 Jahren beachten Sie bitte die Hinweise zum Kinderreisepass.</div>"
+			{
+				"label": "Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich ",
+				"content": "Der Passbewerber muss bei der Antragstellung anwesend sein."
+			},
+			{
+				"label": "Sie sind in Berlin mit einer Wohnung angemeldet",
+				"content": "Wenn Sie in Berlin mit Nebenwohnung angemeldet sind, ist f&#xFC;r die Ausstellung des vorl&#xE4;ufigen Reisepasses die Zustimmung der Passbeh&#xF6;rde am Ort Ihrer Hauptwohnung notwendig; sie wird vom B&#xFC;rgeramt eingeholt."
+			},
+			{
+				"label": "<a href=\"https://service.berlin.de/dienstleistung/121469/\" target=\"_blank\">Reisepass f&#xFC;r Minderj&#xE4;hrige</a>",
+				"content": "F&#xFC;r Kinder und Jugendliche unter 18 Jahren beachten Sie bitte die Hinweise zum Kinderreisepass."
+			}
 		],
 		"documents": [
-			"<strong><a href=\"http://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a></strong><div class=\"description\">Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Reisepass d&#xFC;rfen <strong>nur</strong> biometrietaugliche Fotos verwendet werden.<br>&gt; Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben.</div>",
-			"<strong>Staatsangeh&#xF6;rigkeitsabfrage</strong><div class=\"description\">Nach der Allgemeinen Verwaltungsvorschrift zur Durchf&#xFC;hrung des Passgesetzes (Passverwaltungsvorschrift - PassVwV -) vom 23. Dezember 2009 - GMBl. S. 1686 - ist bei Beantragung eines Passes die Passbewerberin/der Passbewerber hinsichtlich des Bestehens bzw. Fortbestehens der deutschen Staatsangeh&#xF6;rigkeit zu befragen.<br><strong>Der hierf&#xFC;r notwendige Vordruck wird bei Antragstellung im B&#xFC;rgeramt bereitgehalten.</strong></div>",
-			"<strong>alter Reisepass</strong><div class=\"description\">ist nur erforderlich, wenn der Reisepass noch nicht durch eine Passbeh&#xF6;rde entwertet wurde</div>",
-			"<strong>Personalausweis</strong><div class=\"description\">soweit bisher kein Reisepass vorhanden ist</div>",
-			"<strong>Geburtsurkunde / Auszug aus dem Familienbuch </strong><div class=\"description\">Die Vorlage Urkunde kann nur erforderlich werden,<br><ul class=\"list\"><li>wenn Sie bisher keinen Personalausweis oder Reisepass besessen haben <strong>oder</strong></li><li>wenn Abweichungen mit Eintragungen im Melderegister festgestellt werden.</li></ul></div>",
+			{
+				"label": "<a href=\"http://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a>",
+				"content": "Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Reisepass d&#xFC;rfen <strong>nur</strong> biometrietaugliche Fotos verwendet werden.<br>&gt; Hinweis: Geh&#xF6;ren Sie als Antragstellerin/Antragsteller einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, m&#xFC;ssen sie bei der erstmaligen Beantragung eine entsprechende Erkl&#xE4;rung abgeben."
+			},
+			{
+				"label": "Staatsangeh&#xF6;rigkeitsabfrage",
+				"content": "Nach der Allgemeinen Verwaltungsvorschrift zur Durchf&#xFC;hrung des Passgesetzes (Passverwaltungsvorschrift - PassVwV -) vom 23. Dezember 2009 - GMBl. S. 1686 - ist bei Beantragung eines Passes die Passbewerberin/der Passbewerber hinsichtlich des Bestehens bzw. Fortbestehens der deutschen Staatsangeh&#xF6;rigkeit zu befragen.<br><strong>Der hierf&#xFC;r notwendige Vordruck wird bei Antragstellung im B&#xFC;rgeramt bereitgehalten.</strong>"
+			},
+			{
+				"label": "alter Reisepass",
+				"content": "ist nur erforderlich, wenn der Reisepass noch nicht durch eine Passbeh&#xF6;rde entwertet wurde"
+			},
+			{
+				"label": "Personalausweis",
+				"content": "soweit bisher kein Reisepass vorhanden ist"
+			},
+			{
+				"label": "Geburtsurkunde / Auszug aus dem Familienbuch ",
+				"content": "Die Vorlage Urkunde kann nur erforderlich werden,<br><ul class=\"list\"><li>wenn Sie bisher keinen Personalausweis oder Reisepass besessen haben <strong>oder</strong></li><li>wenn Abweichungen mit Eintragungen im Melderegister festgestellt werden.</li></ul>"
+			},
 			"wenn Sie bisher keinen Personalausweis oder Reisepass besessen haben <strong>oder</strong>",
 			"wenn Abweichungen mit Eintragungen im Melderegister festgestellt werden.",
-			"<strong>Nachweis &#xFC;ber eine unmittelbar bevorstehende Reise</strong><div class=\"description\">z.B. Reisevertrag, Flugtickets o.&#xE4;.</div>"
+			{
+				"label": "Nachweis &#xFC;ber eine unmittelbar bevorstehende Reise",
+				"content": "z.B. Reisevertrag, Flugtickets o.&#xE4;."
+			}
 		],
 		"costs": "Die Verwaltungsgeb&#xFC;hr betr&#xE4;gt 26,00 Euro.<br>Bei Antragstellung am Ort der Nebenwohnung verdoppelt sich die Geb&#xFC;hr und es k&#xF6;nnen Auslagen erhoben werden.",
 		"legal": [
@@ -2104,17 +2233,38 @@
 		"intro": "<p>Sie m&#xF6;chten mit ihrem Kind in das Ausland verreisen?<br>Der <strong>Kinderreisepass</strong> kann f&#xFC;r das Kind das richtige Dokument sein.<br><br>Kindereisep&#xE4;sse sind vollg&#xFC;ltige Reisep&#xE4;sse, die im Unterschied zum ePass keinen Datenchip enthalten (also keine digitalisierten Angaben zum Passinhaber, kein digitalisiertes Lichtbild und keine Fingerabdr&#xFC;cke).<br><br></p><ul class=\"list\"><li>Kinderreisep&#xE4;sse sind 6 Jahre, l&#xE4;ngstens jedoch bis zum 12. Lebensjahr g&#xFC;ltig, je nach Alter des Kindes bei Antragstellung;</li><li>die G&#xFC;ltigkeitsdauer kann verl&#xE4;ngert werden, wenn sie noch nicht abgelaufen ist</li><li>sie k&#xF6;nnen aktualisiert (mit einem neuen Lichtbild versehen) werden, auch unabh&#xE4;ngig von einer Verl&#xE4;ngerung</li><li>ab dem 10. Lebensjahr muss das Kind den Kinderreisepass selbst unterschreiben.</li><br></ul>Informieren Sie sich bitte unbedingt <strong>vor der Antragstellung</strong>, ob der Kinderreisepass f&#xFC;r die<br>Einreise in einem Nicht-EU-Land ausreichend ist - Hinweise dazu finden Sie im <strong>Reiseratgeber</strong> des ausw&#xE4;rtigen Amtes (siehe &quot;Weiterf&#xFC;hrende Informationen&quot;).<p></p>",
 		"requirements": [
 			"<strong>Das Kind besitzt die deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
-			"<strong>Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich</strong><br><div class=\"description\">auch der Passbewerber (hier das Kind) muss bei der Antragstellung anwesend sein</div>",
-			"<strong>Der Antrag ist vom gesetzlichen Vertreter zu stellen</strong><br><div class=\"description\">das sind in der Regel beide Elternteile, wenn sie miteinander verheiratet sind.</div>",
-			"<strong>Das Kind ist in Berlin mit einer Wohnung angemeldet</strong><br><div class=\"description\">die Ausstellung erfolgt grunds&#xE4;tzlich f&#xFC;r in Berlin mit Hauptwohnung gemeldete Kinder</div>"
+			{
+				"label": "Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich",
+				"content": "auch der Passbewerber (hier das Kind) muss bei der Antragstellung anwesend sein"
+			},
+			{
+				"label": "Der Antrag ist vom gesetzlichen Vertreter zu stellen",
+				"content": "das sind in der Regel beide Elternteile, wenn sie miteinander verheiratet sind."
+			},
+			{
+				"label": "Das Kind ist in Berlin mit einer Wohnung angemeldet",
+				"content": "die Ausstellung erfolgt grunds&#xE4;tzlich f&#xFC;r in Berlin mit Hauptwohnung gemeldete Kinder"
+			}
 		],
 		"documents": [
 			"<strong>Identit&#xE4;tsnachweis/e der antragsberechtigten Person/en</strong>",
-			"<strong><a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a></strong><div class=\"description\">wird f&#xFC;r die Ausstellung, die Verl&#xE4;ngerung oder die Aktualisierung ben&#xF6;tigt.<br>Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Kinderreisepass sollen grunds&#xE4;tzlich biometrietaugliche Fotos verwendet werden.<br>(Bei Kindern bis zum vollendeten 10. Lebensjahr sind bei einigen Fotokriterien Abweichungen zul&#xE4;ssig).</div>",
-			"<strong>Geburtsurkunde</strong><div class=\"description\">bei erstmaliger Ausstellung wird um Vorlage gebeten, wenn das Kind nicht in Berlin geboren wurde</div>",
+			{
+				"label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 aktuelles Lichtbild (biometrief&#xE4;hig) </a>",
+				"content": "wird f&#xFC;r die Ausstellung, die Verl&#xE4;ngerung oder die Aktualisierung ben&#xF6;tigt.<br>Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Kinderreisepass sollen grunds&#xE4;tzlich biometrietaugliche Fotos verwendet werden.<br>(Bei Kindern bis zum vollendeten 10. Lebensjahr sind bei einigen Fotokriterien Abweichungen zul&#xE4;ssig)."
+			},
+			{
+				"label": "Geburtsurkunde",
+				"content": "bei erstmaliger Ausstellung wird um Vorlage gebeten, wenn das Kind nicht in Berlin geboren wurde"
+			},
 			"<strong>Sorgerechtsbeschluss, Negativbescheinigung vom Jugendamt bei Alleinerziehenden oder rechtskr&#xE4;ftiges Scheidungsurteil</strong>",
-			"<strong>Ggf. Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters</strong><div class=\"description\">Soweit beide Elternteile sorgeberechtigt sind, nicht voneinander getrennt leben und ein Elternteil bei der Antragstellung nicht anwesend ist, muss eine schriftliche Einverst&#xE4;ndniserkl&#xE4;rung des nicht anwesenden Elternteils vorgelegt werden. Dessen Ausweis/Reisepass soll ebenfalls mitgebracht werden.</div>",
-			"<strong>Staatsangeh&#xF6;rigkeitsabfrage</strong><div class=\"description\">Bei Beantragung eines Kinderpasses sind die Antragsteller hinsichtlich des Bestehens bzw. Fortbestehens der deutschen Staatsangeh&#xF6;rigkeit des Kindes zu befragen.<br><strong>Der hierf&#xFC;r ggf. notwendige Vordruck wird bei Antragstellung im B&#xFC;rgeramt bereitgehalten.</strong></div>"
+			{
+				"label": "Ggf. Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters",
+				"content": "Soweit beide Elternteile sorgeberechtigt sind, nicht voneinander getrennt leben und ein Elternteil bei der Antragstellung nicht anwesend ist, muss eine schriftliche Einverst&#xE4;ndniserkl&#xE4;rung des nicht anwesenden Elternteils vorgelegt werden. Dessen Ausweis/Reisepass soll ebenfalls mitgebracht werden."
+			},
+			{
+				"label": "Staatsangeh&#xF6;rigkeitsabfrage",
+				"content": "Bei Beantragung eines Kinderpasses sind die Antragsteller hinsichtlich des Bestehens bzw. Fortbestehens der deutschen Staatsangeh&#xF6;rigkeit des Kindes zu befragen.<br><strong>Der hierf&#xFC;r ggf. notwendige Vordruck wird bei Antragstellung im B&#xFC;rgeramt bereitgehalten.</strong>"
+			}
 		],
 		"costs": [
 			"f&#xFC;r die Ausstellung eines Kinderreisepasses betr&#xE4;gt 13,00 Euro",
@@ -2443,13 +2593,28 @@
 		"requirements": [
 			"<strong>Sie besitzen die deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
 			"<strong>Die pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich</strong><br>",
-			"<strong>F&#xFC;r unter 16-j&#xE4;hrige</strong><br><div class=\"description\">ist der Antrag vom gesetzlichen Vertreter zu stellen. Das sind in der Regel beide Elternteile.</div>"
+			{
+				"label": "F&#xFC;r unter 16-j&#xE4;hrige",
+				"content": "ist der Antrag vom gesetzlichen Vertreter zu stellen. Das sind in der Regel beide Elternteile."
+			}
 		],
 		"documents": [
-			"<strong><a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile&amp;v=2\" target=\"_blank\">1 aktuelles Foto (biometrief&#xE4;hig) </a></strong><div class=\"description\">Beachten Sie die Fotomustertafel der Bundesdruckerei. Auch f&#xFC;r den vorl&#xE4;ufigen Personalausweis sollen nur noch biometrietaugliche Fotos wie in Reisep&#xE4;ssen verwendet werden.<br>Geh&#xF6;rt die Ausweisinhaberin / der Ausweisinhaber einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, kann unter Umst&#xE4;nden zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis erforderlich sein.</div>",
-			"<strong>Falls vorhanden Ihr Personalausweis ansonsten der Reisepass </strong><div class=\"description\">(auch wenn dieser bereits abgelaufen ist)</div>",
-			"<strong>Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters </strong><div class=\"description\">Erscheint ein Sorgeberechtigter nicht pers&#xF6;nlich, wird sein schriftliches Einverst&#xE4;ndnis mit Unterschrift sowie das Original Personalausweis/-Reisepassdokument ben&#xF6;tigt.<br>Liegt kein Dokument vor, muss die Unterschrift auf der Erkl&#xE4;rung beglaubigt sein. Hierzu wenden Sie sich vorab bitte an Ihre zust&#xE4;ndige Stadtverwaltung oder zust&#xE4;ndige deutsche Auslandsvertretung.</div>",
-			"<strong>standesamtliche Urkunde </strong><div class=\"description\">Die Vorlage der Geburtsurkunde oder der Eheurkunde ist nur dann erforderlich, wenn Abweichungen von bisherigen Eintragungen vorliegen (zum Beispiel Namens&#xE4;nderung durch Eheschlie&#xDF;ung).</div>"
+			{
+				"label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile&amp;v=2\" target=\"_blank\">1 aktuelles Foto (biometrief&#xE4;hig) </a>",
+				"content": "Beachten Sie die Fotomustertafel der Bundesdruckerei. Auch f&#xFC;r den vorl&#xE4;ufigen Personalausweis sollen nur noch biometrietaugliche Fotos wie in Reisep&#xE4;ssen verwendet werden.<br>Geh&#xF6;rt die Ausweisinhaberin / der Ausweisinhaber einer Religionsgemeinschaft an, die ihren Mitgliedern das Tragen einer Kopfbedeckung vorschreibt, kann unter Umst&#xE4;nden zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis erforderlich sein."
+			},
+			{
+				"label": "Falls vorhanden Ihr Personalausweis ansonsten der Reisepass ",
+				"content": "(auch wenn dieser bereits abgelaufen ist)"
+			},
+			{
+				"label": "Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters ",
+				"content": "Erscheint ein Sorgeberechtigter nicht pers&#xF6;nlich, wird sein schriftliches Einverst&#xE4;ndnis mit Unterschrift sowie das Original Personalausweis/-Reisepassdokument ben&#xF6;tigt.<br>Liegt kein Dokument vor, muss die Unterschrift auf der Erkl&#xE4;rung beglaubigt sein. Hierzu wenden Sie sich vorab bitte an Ihre zust&#xE4;ndige Stadtverwaltung oder zust&#xE4;ndige deutsche Auslandsvertretung."
+			},
+			{
+				"label": "standesamtliche Urkunde ",
+				"content": "Die Vorlage der Geburtsurkunde oder der Eheurkunde ist nur dann erforderlich, wenn Abweichungen von bisherigen Eintragungen vorliegen (zum Beispiel Namens&#xE4;nderung durch Eheschlie&#xDF;ung)."
+			}
 		],
 		"costs": [
 			"10,00 Euro",
@@ -2486,16 +2651,34 @@
 		"requirements": [
 			"<strong>Sie besitzen die deutsche Staatsangeh&#xF6;rigkeit</strong><br>",
 			"<strong>Die pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich</strong><br>",
-			"<strong><a href=\"https://service.berlin.de/dienstleistung/326548/\" target=\"_blank\">Reisepass f&#xFC;r Minderj&#xE4;hrige</a></strong><br><div class=\"description\"><ul class=\"list\"><li>das Kind muss bei der Antragstellung anwesend sein.</li><li>der Antrag ist vom gesetzlichen Vertreter zu stellen. (das sind in der Regel beide El-ternteile)</li></ul></div>",
+			{
+				"label": "<a href=\"https://service.berlin.de/dienstleistung/326548/\" target=\"_blank\">Reisepass f&#xFC;r Minderj&#xE4;hrige</a>",
+				"content": "<ul class=\"list\"><li>das Kind muss bei der Antragstellung anwesend sein.</li><li>der Antrag ist vom gesetzlichen Vertreter zu stellen. (das sind in der Regel beide El-ternteile)</li></ul>"
+			},
 			"das Kind muss bei der Antragstellung anwesend sein.",
 			"der Antrag ist vom gesetzlichen Vertreter zu stellen. (das sind in der Regel beide El-ternteile)"
 		],
 		"documents": [
-			"<strong><a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 biometrief&#xE4;higes Foto neuester Zeit</a></strong><div class=\"description\">Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Reisepass d&#xFC;rfen <strong>nur</strong> biometrietaugliche Fotos verwendet werden.<br>Geh&#xF6;rt die Antragstellerin / der Antragsteller einer Religionsgemeinschaft an, bei der eine Kopfbedeckung vorgeschrieben ist, ist zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis vorzulegen.</div>",
-			"<strong>Falls vorhanden Ihr Reisepass ansonsten der Personalausweis </strong><div class=\"description\">(auch wenn dieser bereits abgelaufen ist)</div>",
-			"<strong>Sie haben Ihren Wohnsitz im Ausland</strong><div class=\"description\">Nicht in allen L&#xE4;ndern besteht eine Meldepflicht. Es kann daher erforderlich sein, den Wohnsitz im Ausland nachzuweisen. Hierf&#xFC;r bestehen abh&#xE4;ngig vom Wohnort unterschiedliche M&#xF6;glichkeiten. Um unn&#xF6;tige Verz&#xF6;gerungen zu vermeiden, informieren Sie sich <strong>vorher</strong> auf den <strong><a href=\"https://www.auswaertiges-amt.de/DE/Laenderinformationen/03-WebseitenAV/Uebersicht_node.html\" target=\"_blank\">Internetseiten der deutschen Auslandsvertretungen</a></strong>.</div>",
-			"<strong><a href=\"https://www.berlin.de/labo/_assets/buergerdienste/infoblatt_pass_ausweis_ausland.pdf\" target=\"_blank\">Infoblatt f&#xFC;r Auslandsdeutsche</a></strong><div class=\"description\">Weiterf&#xFC;hrende Informationen f&#xFC;r Antragstellerinnen und Antragsteller</div>",
-			"<strong>standesamtliche Urkunde </strong><div class=\"description\">Die Vorlage der Geburtsurkunde oder der Eheurkunde ist nur dann erforderlich, wenn Abweichungen von bisherigen Eintragungen vorliegen (zum Beispiel Namens&#xE4;nderung durch Eheschlie&#xDF;ung).</div>"
+			{
+				"label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 biometrief&#xE4;higes Foto neuester Zeit</a>",
+				"content": "Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Reisepass d&#xFC;rfen <strong>nur</strong> biometrietaugliche Fotos verwendet werden.<br>Geh&#xF6;rt die Antragstellerin / der Antragsteller einer Religionsgemeinschaft an, bei der eine Kopfbedeckung vorgeschrieben ist, ist zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis vorzulegen."
+			},
+			{
+				"label": "Falls vorhanden Ihr Reisepass ansonsten der Personalausweis ",
+				"content": "(auch wenn dieser bereits abgelaufen ist)"
+			},
+			{
+				"label": "Sie haben Ihren Wohnsitz im Ausland",
+				"content": "Nicht in allen L&#xE4;ndern besteht eine Meldepflicht. Es kann daher erforderlich sein, den Wohnsitz im Ausland nachzuweisen. Hierf&#xFC;r bestehen abh&#xE4;ngig vom Wohnort unterschiedliche M&#xF6;glichkeiten. Um unn&#xF6;tige Verz&#xF6;gerungen zu vermeiden, informieren Sie sich <strong>vorher</strong> auf den <strong><a href=\"https://www.auswaertiges-amt.de/DE/Laenderinformationen/03-WebseitenAV/Uebersicht_node.html\" target=\"_blank\">Internetseiten der deutschen Auslandsvertretungen</a></strong>."
+			},
+			{
+				"label": "<a href=\"https://www.berlin.de/labo/_assets/buergerdienste/infoblatt_pass_ausweis_ausland.pdf\" target=\"_blank\">Infoblatt f&#xFC;r Auslandsdeutsche</a>",
+				"content": "Weiterf&#xFC;hrende Informationen f&#xFC;r Antragstellerinnen und Antragsteller"
+			},
+			{
+				"label": "standesamtliche Urkunde ",
+				"content": "Die Vorlage der Geburtsurkunde oder der Eheurkunde ist nur dann erforderlich, wenn Abweichungen von bisherigen Eintragungen vorliegen (zum Beispiel Namens&#xE4;nderung durch Eheschlie&#xDF;ung)."
+			}
 		],
 		"costs": [
 			"bis 24 Jahre 37,50 Euro",
@@ -2550,16 +2733,37 @@
 		"requirements": [
 			"<strong>Das Kind ist in Berlin nicht gemeldet</strong><br>",
 			"<strong>Das Kind besitzt die deutsche Staatsangeh&#xF6;rigkeit </strong><br>",
-			"<strong>Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich </strong><br><div class=\"description\">auch das Kind muss bei der Antragstellung anwesend sein</div>",
-			"<strong>Der Antrag ist vom gesetzlichen Vertreter zu stellen </strong><br><div class=\"description\">das sind in der Regel beide Elternteile.</div>"
+			{
+				"label": "Pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich ",
+				"content": "auch das Kind muss bei der Antragstellung anwesend sein"
+			},
+			{
+				"label": "Der Antrag ist vom gesetzlichen Vertreter zu stellen ",
+				"content": "das sind in der Regel beide Elternteile."
+			}
 		],
 		"documents": [
-			"<strong><a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 biometrief&#xE4;higes Foto neuester Zeit </a></strong><div class=\"description\">wird f&#xFC;r die Ausstellung, die Verl&#xE4;ngerung oder die Aktualisierung ben&#xF6;tigt.<br>Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Kinderreisepass sollen grunds&#xE4;tzlich biometrietaugliche Fotos verwendet werden (Bei Kindern bis zum vollendeten 10. Lebensjahr sind bei einigen Fotokriterien Abweichungen zul&#xE4;ssig).<br>Geh&#xF6;rt Ihr Kind einer Religionsgemeinschaft an, bei der eine Kopfbedeckung vorgeschrieben ist, kann unter Umst&#xE4;nden zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis erforderlich sein.</div>",
+			{
+				"label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 biometrief&#xE4;higes Foto neuester Zeit </a>",
+				"content": "wird f&#xFC;r die Ausstellung, die Verl&#xE4;ngerung oder die Aktualisierung ben&#xF6;tigt.<br>Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Kinderreisepass sollen grunds&#xE4;tzlich biometrietaugliche Fotos verwendet werden (Bei Kindern bis zum vollendeten 10. Lebensjahr sind bei einigen Fotokriterien Abweichungen zul&#xE4;ssig).<br>Geh&#xF6;rt Ihr Kind einer Religionsgemeinschaft an, bei der eine Kopfbedeckung vorgeschrieben ist, kann unter Umst&#xE4;nden zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis erforderlich sein."
+			},
 			"<strong>Wenn vorhanden: Kinderreisepass, Reisepass oder Personalausweis </strong>",
-			"<strong>Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters </strong><div class=\"description\">Erscheint ein Sorgeberechtigter nicht pers&#xF6;nlich, wird sein schriftliches Einverst&#xE4;ndnis mit Unterschrift sowie der Original-Personalausweis/-Reisepass ben&#xF6;tigt.<br>Liegt kein Dokument vor, muss die Unterschrift auf der Erkl&#xE4;rung beglaubigt werden. Hierzu wenden Sie sich bitte an Ihre Stadtverwaltung oder zust&#xE4;ndige Deutsche Auslandsvertretung.</div>",
-			"<strong>Sie haben Ihren Wohnsitz im Ausland </strong><div class=\"description\">Nicht in allen L&#xE4;ndern besteht eine Meldepflicht. Es kann daher erforderlich sein, den Wohnsitz im Ausland nachzuweisen. Hierf&#xFC;r bestehen abh&#xE4;ngig vom Wohnort unterschiedliche M&#xF6;glichkeiten. Um unn&#xF6;tige Verz&#xF6;gerungen zu vermeiden, informieren Sie sich vorher auf den Internetseiten der deutschen Auslandsvertretungen.</div>",
-			"<strong>Geburtsurkunde</strong><div class=\"description\">In Einzelf&#xE4;llen ist es m&#xF6;glich, dass die Geburtsurkunde erforderlich ist.</div>",
-			"<strong><a href=\"https://www.berlin.de/labo/_assets/buergerdienste/infoblatt_pass_ausweis_ausland.pdf\" target=\"_blank\">Infoblatt </a></strong><div class=\"description\">Weiterf&#xFC;hrende Informationen f&#xFC;r Antragstellerinnen und Antragsteller</div>"
+			{
+				"label": "Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters ",
+				"content": "Erscheint ein Sorgeberechtigter nicht pers&#xF6;nlich, wird sein schriftliches Einverst&#xE4;ndnis mit Unterschrift sowie der Original-Personalausweis/-Reisepass ben&#xF6;tigt.<br>Liegt kein Dokument vor, muss die Unterschrift auf der Erkl&#xE4;rung beglaubigt werden. Hierzu wenden Sie sich bitte an Ihre Stadtverwaltung oder zust&#xE4;ndige Deutsche Auslandsvertretung."
+			},
+			{
+				"label": "Sie haben Ihren Wohnsitz im Ausland ",
+				"content": "Nicht in allen L&#xE4;ndern besteht eine Meldepflicht. Es kann daher erforderlich sein, den Wohnsitz im Ausland nachzuweisen. Hierf&#xFC;r bestehen abh&#xE4;ngig vom Wohnort unterschiedliche M&#xF6;glichkeiten. Um unn&#xF6;tige Verz&#xF6;gerungen zu vermeiden, informieren Sie sich vorher auf den Internetseiten der deutschen Auslandsvertretungen."
+			},
+			{
+				"label": "Geburtsurkunde",
+				"content": "In Einzelf&#xE4;llen ist es m&#xF6;glich, dass die Geburtsurkunde erforderlich ist."
+			},
+			{
+				"label": "<a href=\"https://www.berlin.de/labo/_assets/buergerdienste/infoblatt_pass_ausweis_ausland.pdf\" target=\"_blank\">Infoblatt </a>",
+				"content": "Weiterf&#xFC;hrende Informationen f&#xFC;r Antragstellerinnen und Antragsteller"
+			}
 		],
 		"costs": [
 			"Ausstellung 13,00 Euro",
@@ -2608,15 +2812,36 @@
 		"requirements": [
 			"<strong>Sie besitzen die deutsche Staatsangeh&#xF6;rigkeit.</strong><br>",
 			"<strong>Die pers&#xF6;nliche Vorsprache ist in jedem Fall erforderlich.</strong><br>",
-			"<strong>F&#xFC;r unter 16-j&#xE4;hrige</strong><br><div class=\"description\">ist der Antrag vom gesetzlichen Vertreter zu stellen. Das sind in der Regel beide Elternteile.</div>"
+			{
+				"label": "F&#xFC;r unter 16-j&#xE4;hrige",
+				"content": "ist der Antrag vom gesetzlichen Vertreter zu stellen. Das sind in der Regel beide Elternteile."
+			}
 		],
 		"documents": [
-			"<strong><a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 biometrief&#xE4;higes Foto neuester Zeit</a></strong><div class=\"description\">Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Personalausweis d&#xFC;rfen nur biometrietaugliche Fotos verwendet werden.<br>Geh&#xF6;rt die Antragstellerin / der Antragsteller einer Religionsgemeinschaft an, bei der eine Kopfbedeckung vorgeschrieben ist, ist zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis vorzulegen.</div>",
-			"<strong>Falls vorhanden Ihr Personalausweis ansonsten der Reisepass </strong><div class=\"description\">(auch wenn dieser bereits abgelaufen ist)</div>",
-			"<strong>Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters </strong><div class=\"description\">Erscheint ein Sorgeberechtigter nicht pers&#xF6;nlich, wird sein schriftliches Einverst&#xE4;ndnis mit Unterschrift sowie das Original Personalausweis/-Reisepassdokument ben&#xF6;tigt.<br>Liegt kein Dokument vor, muss die Unterschrift auf der Erkl&#xE4;rung beglaubigt sein. Hierzu wenden Sie sich vorab bitte an Ihre zust&#xE4;ndige Stadtverwaltung oder zust&#xE4;ndi-ge deutsche Auslandsvertretung.</div>",
-			"<strong>Sie haben Ihren Wohnsitz im Ausland</strong><div class=\"description\">Nicht in allen L&#xE4;ndern besteht eine Meldepflicht. Es kann daher erforderlich sein, den Wohnsitz im Ausland nachzuweisen. Hierf&#xFC;r bestehen abh&#xE4;ngig vom Wohnort unterschiedliche M&#xF6;glichkeiten. Um unn&#xF6;tige Verz&#xF6;gerungen zu vermeiden, informieren Sie sich vorher auf den Internetseiten der deutschen Auslandsvertretungen.</div>",
-			"<strong><a href=\"https://www.berlin.de/labo/_assets/buergerdienste/infoblatt_pass_ausweis_ausland.pdf\" target=\"_blank\">Infoblatt f&#xFC;r Auslandsdeutsche</a></strong><div class=\"description\">Weiterf&#xFC;hrende Informationen f&#xFC;r Antragstellerinnen und Antragsteller</div>",
-			"<strong>standesamtliche Urkunde </strong><div class=\"description\">Die Vorlage der Geburtsurkunde oder der Eheurkunde ist nur dann erforderlich, wenn Abweichungen von bisherigen Eintragungen vorliegen, zum Beispiel Namens&#xE4;nderung durch Eheschlie&#xDF;ung.</div>"
+			{
+				"label": "<a href=\"https://www.personalausweisportal.de/SharedDocs/Downloads/DE/Weitere-Informationen/Fotomustertafel.pdf?__blob=publicationFile\" target=\"_blank\">1 biometrief&#xE4;higes Foto neuester Zeit</a>",
+				"content": "Beachten Sie die Fotomustertafel der Bundesdruckerei. F&#xFC;r den Personalausweis d&#xFC;rfen nur biometrietaugliche Fotos verwendet werden.<br>Geh&#xF6;rt die Antragstellerin / der Antragsteller einer Religionsgemeinschaft an, bei der eine Kopfbedeckung vorgeschrieben ist, ist zus&#xE4;tzlich bei der erstmaligen Beantragung ein Nachweis vorzulegen."
+			},
+			{
+				"label": "Falls vorhanden Ihr Personalausweis ansonsten der Reisepass ",
+				"content": "(auch wenn dieser bereits abgelaufen ist)"
+			},
+			{
+				"label": "Einverst&#xE4;ndniserkl&#xE4;rung eines nicht anwesenden gesetzlichen Vertreters ",
+				"content": "Erscheint ein Sorgeberechtigter nicht pers&#xF6;nlich, wird sein schriftliches Einverst&#xE4;ndnis mit Unterschrift sowie das Original Personalausweis/-Reisepassdokument ben&#xF6;tigt.<br>Liegt kein Dokument vor, muss die Unterschrift auf der Erkl&#xE4;rung beglaubigt sein. Hierzu wenden Sie sich vorab bitte an Ihre zust&#xE4;ndige Stadtverwaltung oder zust&#xE4;ndi-ge deutsche Auslandsvertretung."
+			},
+			{
+				"label": "Sie haben Ihren Wohnsitz im Ausland",
+				"content": "Nicht in allen L&#xE4;ndern besteht eine Meldepflicht. Es kann daher erforderlich sein, den Wohnsitz im Ausland nachzuweisen. Hierf&#xFC;r bestehen abh&#xE4;ngig vom Wohnort unterschiedliche M&#xF6;glichkeiten. Um unn&#xF6;tige Verz&#xF6;gerungen zu vermeiden, informieren Sie sich vorher auf den Internetseiten der deutschen Auslandsvertretungen."
+			},
+			{
+				"label": "<a href=\"https://www.berlin.de/labo/_assets/buergerdienste/infoblatt_pass_ausweis_ausland.pdf\" target=\"_blank\">Infoblatt f&#xFC;r Auslandsdeutsche</a>",
+				"content": "Weiterf&#xFC;hrende Informationen f&#xFC;r Antragstellerinnen und Antragsteller"
+			},
+			{
+				"label": "standesamtliche Urkunde ",
+				"content": "Die Vorlage der Geburtsurkunde oder der Eheurkunde ist nur dann erforderlich, wenn Abweichungen von bisherigen Eintragungen vorliegen, zum Beispiel Namens&#xE4;nderung durch Eheschlie&#xDF;ung."
+			}
 		],
 		"costs": [
 			"bis 24 Jahre 22,80 Euro",
