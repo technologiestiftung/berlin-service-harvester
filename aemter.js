@@ -39,9 +39,12 @@ request("https://service.berlin.de/standorte/buergeraemter/")
 
       const refs = $(blocks[index]).find(".list .topic-dls a");
       for (let rIndex = 0; rIndex < refs.length; rIndex += 1){
+        const href = $(refs[rIndex]).attr("href");
+        const href_split = href.split("/");
         items.push({
           label: $(refs[rIndex]).text(),
-          url: "https://service.berlin.de" + $(refs[rIndex]).attr("href"),
+          id: href_split[2],
+          url: "https://service.berlin.de" + href,
         });
       }
 
