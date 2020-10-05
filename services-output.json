@@ -3837,6 +3837,197 @@
             }
         }
     },
+    "324879": {
+        "title": "Kita-Gutschein - Betreuungsumfang erweitern",
+        "intro": "<p>F&#xFC;r einen bestehenden Kita-Gutschein kann die Betreuungszeit Ihres Kindes auf Antrag erweitert werden.</p>",
+        "requirements": [
+            "<strong><a href=\"https://service.berlin.de/dienstleistung/324873/\" target=\"_blank\">Ein g&#xFC;ltiger Kita-Gutschein liegt vor.</a></strong><br>"
+        ],
+        "documents": [
+            {
+                "label": "<a href=\"https://www.berlin.de/sen/bjf/service/formulare/anmeldung_zur_forderung_von_kindern_in_tageseinrichtungen.pdf\" target=\"_blank\">Anmeldung zur F&#xF6;rderung von Kindern</a>",
+                "content": "(unter &quot;Online-Abwicklung&quot; bzw. &quot;Formulare&quot;)"
+            },
+            {
+                "label": "Vollmacht des sorgeberechtigten Elternteils, ",
+                "content": "der nicht auf dem Erweiterungsantrag unterschrieben hat oder eine schriftliche Erkl&#xE4;rung &#xFC;ber das alleinige Sorgerecht."
+            },
+            {
+                "label": "Einverst&#xE4;ndniserkl&#xE4;rung der Kita &#xFC;ber die Erh&#xF6;hung der Betreuungszeit",
+                "content": "wenn die Betreuungszeit im laufenden Monat ge&#xE4;ndert werden soll"
+            },
+            {
+                "label": "Aktueller Nachweis des Arbeitgebers &#xFC;ber die bestehende Erwerbst&#xE4;tigkeit ",
+                "content": "(bzw. Beginn der Arbeitsaufnahme) mit konkreten oder ver&#xE4;nderten Arbeitszeiten (von beiden Eltern, sofern das Kind von beiden Eltern betreut wird)"
+            },
+            "<strong>Nachweis einer Ausbildung oder eines Studiums zum gew&#xFC;nschten &#xC4;nderungszeitpunkt</strong>",
+            {
+                "label": "Nachweis &#xFC;ber die bestehende Selbst&#xE4;ndigkeit oder freiberufliche T&#xE4;tigkeit ",
+                "content": "(z.B. Gewerbeanmeldung, Beitragsbescheid der K&#xFC;nstlersozialkasse, Bescheinigung vom Steuerberater, Bescheinigung vom Finanzamt oder eine Erkl&#xE4;rung &#xFC;ber Ihre selbst&#xE4;ndige T&#xE4;tigkeit)"
+            },
+            "<strong>Praktikumsvertrag</strong>",
+            "<strong>Best&#xE4;tigung der Aufnahme einer Besch&#xE4;ftigungs- bzw. Weiterbildungsma&#xDF;nahme </strong>"
+        ],
+        "forms": [
+            {
+                "url": "https://www.berlin.de/sen/bjf/service/formulare/anmeldung_zur_forderung_von_kindern_in_tageseinrichtungen.pdf",
+                "label": "Anmeldung zur Förderung von Kindern in Tageseinrichtungen"
+            }
+        ],
+        "costs": "keine",
+        "legal": [
+            {
+                "url": "https://www.gesetze-im-internet.de/sgb_8/BJNR111630990.html",
+                "label": "Sozialgesetzbuch, Achtes Buch (SGB VIII)"
+            },
+            {
+                "url": "http://gesetze.berlin.de/jportal/?quelle=jlink&query=KitaRefG+BE&psml=bsbeprod.psml&max=true",
+                "label": "Kindertagesförderungsgesetz (KitaFöG)"
+            },
+            {
+                "url": "http://gesetze.berlin.de/jportal/?quelle=jlink&query=KitaF%C3%B6GV+BE+%C2%A7+1&psml=bsbeprod.psml&max=true",
+                "label": "Kindertagesförderungsverordnung (VOKitaFöG)"
+            },
+            {
+                "url": "http://gesetze.berlin.de/jportal/?quelle=jlink&query=TagEinrKostBetG+BE&psml=bsbeprod.psml&max=true",
+                "label": "Tagesbetreuungskostenbeteiligungsgesetz (TKBG)"
+            }
+        ],
+        "time": "kurzfristig",
+        "appointment": {
+            "behoerden": [
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt - Kindertagesbetreuung (Kita, Hort)"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Charlottenburg - Wilmersdorf"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt Friedrichshain-Kreuzberg [Leistungsbereich]"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Friedrichshain - Kreuzberg"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt - Tagesbetreuung von Kindern"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Lichtenberg"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt - Kita-Hort Gutscheinstelle"
+                        },
+                        {
+                            "label": "Jugendamt Marzahn-Hellersdorf"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Marzahn - Hellersdorf"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt - Familienbüro"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Mitte"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt Tagesbetreuung von Kindern"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Neukölln"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=324903&anliegen[]=324879&herkunft=1",
+                            "label": "Jugendamt Fachdienst 5 - Kindertagesbetreuung"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Pankow"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt Reinickendorf"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Reinickendorf"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt - Kindertagesbetreuung (Kita, Hort)"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Spandau"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "label": "Jugendamt - Familienbüro"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Steglitz-Zehlendorf"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=123612&anliegen[]=324879&herkunft=1",
+                            "label": "Jugendamt - Tagesbetreuung für Kinder"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Tempelhof-Schöneberg"
+                    }
+                },
+                {
+                    "offices": [
+                        {
+                            "url": "https://service.berlin.de/terminvereinbarung/termin/tag.php?termin=1&dienstleister=123613&anliegen[]=324879&herkunft=1",
+                            "label": "Jugendamt Treptow-Köpenick - Kitagutscheinverfahren und Hort"
+                        }
+                    ],
+                    "all": {
+                        "label": "Bezirksamt Treptow-Köpenick"
+                    }
+                }
+            ],
+            "berlin": {
+                "label": ""
+            }
+        }
+    },
     "326548": {
         "title": "Kinderreisepass für in Berlin nicht gemeldete Personen, Touristen und Deutsche mit Wohnsitz im Ausland",
         "intro": "<p>Wenn Ihr Kind<br></p><ul class=\"list\"><li>nicht in Berlin,</li><li>im &#xFC;brigen Bundesgebiet</li><li>nicht in Deutschland</li></ul>gemeldet ist, besteht auch die M&#xF6;glichkeit einen Kinderreisepass in Berlin zu beantragen.<br><br>Kindereisep&#xE4;sse sind vollg&#xFC;ltige Reisep&#xE4;sse, die im Unterschied zum Reisepass keinen Datenchip enthalten (also keine digitalisierten Angaben zum Passinhaber, kein digitalisiertes Lichtbild und keine Fingerabdr&#xFC;cke).<br><br><ul class=\"list\"><li>Der Pass ist 6 Jahre g&#xFC;ltig, maximal bis zum 12. Lebensjahr,</li><li>die G&#xFC;ltigkeitsdauer kann maximal bis zum 12. Lebensjahr verl&#xE4;ngert werden,</li><li>Aktualisierungen (zum Beispiel ein neues Foto) sind auch unabh&#xE4;ngig von einer Verl&#xE4;ngerung m&#xF6;glich,</li><li>ab dem 10. Lebensjahr muss das Kind den Kinderreisepass selbst unterschreiben.</li><br></ul>Informieren Sie sich bitte unbedingt vor der Antragstellung, ob der Kinderreisepass f&#xFC;r die<br>Einreise in einem Nicht-EU-Land ausreichend ist - Hinweise dazu finden Sie auch im Reiseratgeber des ausw&#xE4;rtigen Amtes (siehe unten).<br><br>Bevor Ihr Antrag entgegengenommen wird, m&#xFC;ssen wir die zust&#xE4;ndigen Passbeh&#xF6;rde (Hauptwohnsitz oder Deutsche Auslandsvertretung) beteiligen, um die Erm&#xE4;chtigung oder das Votum zu erhalten. Wenn Sie im Ausland leben, kann dieses eine zus&#xE4;tzliche Vorsprache erfordern (zum Beispiel Zeitverschiebung). Beachten Sie hierzu bitte das nachstehende Infoblatt f&#xFC;r Auslandsdeutsche.<p></p>",
